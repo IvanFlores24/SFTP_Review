@@ -1,99 +1,56 @@
-#refereshing csv file handling
-#today im working on filtering / object handling 
+# Refreshing CSV file handling
+# Today I'm working on filtering / object handling 
 import csv
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-#Filters students by grade
-=======
-#retrieves students whos grade is equal to or above desired grade 
->>>>>>> main
->>>>>>> origin/IvanFlores24-patch-1
+# Filters students by grade
+# Retrieves students whose grade is equal to the desired grade
 def filter_by_grade(rows):
-    grade = int(input("Enter the minmum grade youd like to 'retrieve' 0-12: "))
+    grade = int(input("Enter the minimum grade you'd like to 'retrieve' 0-12: "))
     for row in rows:
-        if(int(row['GradeId']) == grade):
+        if int(row['GradeId']) == grade:
             print(row['LastName'], row['FirstName'])
-<<<<<<< HEAD
-
-=======
-<<<<<<< HEAD
-#filters students by gender
-=======
     print()
-    print(row)
 
-#retrieves all students who match desired gender 
->>>>>>> main
->>>>>>> origin/IvanFlores24-patch-1
+# Filters students by gender
+# Retrieves all students who match the desired gender
 def filter_by_gender(rows):
-    gender = input("Enter the gender youd like to 'retrieve' F or M: ")
+    gender = input("Enter the gender you'd like to 'retrieve' F or M: ")
     for row in rows:
-        if(row['GenderId'] == gender):
-<<<<<<< HEAD
-            print(row['FirstName'])
+        if row['GenderId'] == gender:
+            print(row['FirstName'], row['LastName'])
+    print()
 
-=======
-<<<<<<< HEAD
-            print(row['FirstName'])
-#reports all hispanic/latino students
+# Reports all Hispanic/Latino students
 def report_by_ethnicity(rows):
     for row in rows:
-        if(row['HispanicLatino'] == 'Y'):
+        if row['HispanicLatino'] == 'Y':
             print(row)
-#reports all students who have a disability
+
+# Reports all students who have a disability
 def has_disability(rows):
     for row in rows:
-        if(row['DisabilityCategories'] != ""):
-            print(row['FirstName'])
-#Open's csv file and retreives it's content 
-with open('Students.csv', newline='') as students:
-=======
+        if row['DisabilityCategories'] != "":
             print(row['FirstName'], row['LastName'])
-#retrieves all students who are hispanic/latino
->>>>>>> origin/IvanFlores24-patch-1
-def report_by_ethnicity(rows):
-    for row in rows:
-        if(row['HispanicLatino'] == 'Y'):
-            print(row)
+    print()
 
-<<<<<<< HEAD
-with open('Students.csv', newline='') as students:
-=======
-#retreieve and report all students with an IEP
+# Retrieves and reports all students with an IEP
 def report_all_iep(rows):
     for row in rows:
-        if(row['IEP'] == 'Y'):
+        if row['IEP'] == 'Y':
             print(row['FirstName'], row['LastName'], row['IEP'])
+    print()
 
-#note to self refactor and remove the repetative for row in rows
+# Open CSV file and retrieve its content
 with open('Students.csv', newline='', encoding='utf-8') as students:
->>>>>>> main
->>>>>>> origin/IvanFlores24-patch-1
     reader = csv.DictReader(students)
     rows = list(reader)
 
-
-<<<<<<< HEAD
-#   filter_by_grade(rows)
-#   print('By Gender:\n')
-#   filter_by_gender(rows)
-#   print('Hispanic/Latino:\n')
-#   report_by_ethnicity(rows)
-    has_disability(rows)
-=======
+    # Example usage:
     filter_by_grade(rows)
-<<<<<<< HEAD
-    print('By Gender:\n')
-    filter_by_gender(rows)
-    print('Hispanic/Latino:\n')
-    report_by_ethnicity(rows)
-=======
-#   print('By Gender:\n')
-#    filter_by_gender(rows)
-#    print('\nHispanic/Latino:')
-#    report_by_ethnicity(rows) 
->>>>>>> main
->>>>>>> origin/IvanFlores24-patch-1
-    students.close
+    # print('By Gender:\n')
+    # filter_by_gender(rows)
+    # print('Hispanic/Latino:\n')
+    # report_by_ethnicity(rows)
+    has_disability(rows)
+
+    students.close()
