@@ -1,0 +1,101 @@
+studentDistrictId,firstName,lastName,genderId,hasIep,has504,gradeId,race,disability,HispanicLatino
+12,Seth,May,1,0,0,1,, ,N
+22,Noah,Talmadge,1,1,0,2,1,7,Y
+32,Jon,Morris,1,Y,1,3,1|2,7|8,N
+42,Dylan,Bragg,M,Yes,Y,4,"1 2","8 9",Y
+52,Rob,Hoselton,Male,N,Yes,PKA,"1 2 3","7 8 9",N
+62,Megan,Cave,F,No,N,PK,, ,Y
+72,Diertra,Lomeli,Female,No,No,Post12,, ,N
+82,Mona,Miller,2,,,PreKA,, ,Y
+92,Ella,Stone,F,N,N,5,1|3,8,N
+102,Caleb,Johnson,M,Y,N,6,2,7,Y
+112,Ava,Patel,Female,Yes,Y,7,3|4,9,Y
+122,Liam,Nguyen,Male,No,Yes,8,"1 5","7 8",N
+132,Olivia,Garcia,F,N,N,9,"2 3","8 9",Y
+142,Mason,Lee,M,Yes,N,10,1|2,7,N
+152,Isabella,Smith,Female,N,N,11,4|5,9,Y
+162,Ethan,Ramirez,Male,No,Yes,12,"2 3","8 9",N
+172,Charlotte,Khan,F,N,N,PK,, ,Y
+182,Logan,Baker,1,Yes,Yes,1,3,8,Y
+192,Sophia,Moore,F,No,No,2,1|2,7|9,N
+202,James,Wright,M,Yes,N,3,2,8,Y
+212,Amelia,Clark,F,No,Y,4,"1 4","7 8",N
+222,Lucas,Walker,Male,Yes,Yes,5,1|3,7|8,Y
+232,Mia,Hall,Female,No,N,6,2,8,N
+242,Henry,Allen,M,Yes,No,7,1|4,9,Y
+252,Evelyn,Young,F,N,N,8,3|5,8,N
+262,Alexander,Hill,M,Y,N,9,"1 2","8 9",Y
+272,Harper,Scott,Female,No,Yes,10,4|5,9,N
+282,Daniel,Adams,Male,No,N,11,"2 3","7 8",Y
+292,Abigail,Green,F,Yes,Yes,12,3|4,8,N
+302,Matthew,Mitchell,M,No,N,PKA,1|2,7,Y
+312,Emily,Turner,F,Yes,Y,PK,2|3,8,N
+322,Joseph,Perez,Male,N,N,1,3|5,9,Y
+332,Elizabeth,Roberts,Female,No,Yes,2,"1 4","7 8",N
+342,Samuel,Campbell,M,Yes,N,3,1|3,7,Y
+352,Sofia,Phillips,F,N,N,4,3|4,9,N
+362,David,Evans,M,No,Yes,5,"1 2","8 9",Y
+372,Avery,Edwards,Female,Yes,Y,6,4|5,7|8,N
+382,Jackson,Collins,Male,No,N,7,1|3,9,Y
+392,Ella,Stewart,F,Yes,N,8,"2 4","8 9",N
+402,Owen,Morris,M,No,Yes,9,1|5,8,Y
+412,Lily,Rogers,Female,No,N,10,"2 3","7 8",N
+422,Wyatt,Peterson,Male,Yes,Yes,11,3|4,9,Y
+432,Grace,Reed,F,No,N,12,1|2,8,N
+442,Jack,Cook,M,Yes,No,PKA,2|5,7|9,Y
+452,Chloe,Morgan,Female,N,Y,PK,1|4,8,N
+462,Leo,Bell,Male,Yes,N,1,3|5,9,Y
+472,Victoria,Bailey,F,N,N,2,1|2,7|8,N
+482,Sebastian,Rivera,M,Yes,Y,3,4|5,9,Y
+492,Aria,Cooper,Female,No,N,4,"2 3","8 9",N
+502,Grayson,Richardson,Male,N,Yes,5,3|4,7,Y
+512,Scarlett,Cox,F,Yes,No,6,1|5,9,N
+522,Isaac,Howard,M,No,Yes,7,2|3,8,Y
+532,Penelope,Ward,Female,N,N,8,4|5,9,N
+542,Julian,Flores,Male,Yes,Yes,9,"1 2","7 8",Y
+552,Eleanor,Brooks,F,No,N,10,3|5,9,N
+562,Anthony,Gray,M,Yes,N,11,2|4,8,Y
+572,Hazel,James,Female,N,Yes,12,"1 5","7 8",N
+582,Joshua,Watson,Male,No,N,PK,3|4,9,Y
+592,Nora,Bennett,F,Yes,Yes,Post12,1|2,8,N
+602,Andrew,Barnes,M,N,N,1,4|5,9,Y
+612,Riley,Ross,Female,Yes,N,2,"2 3","7 8",N
+622,Christopher,Henderson,Male,No,Yes,3,1|5,8,Y
+632,Zoe,Cole,F,N,N,4,2|4,9,N
+642,Nathan,Hendricks,M,Yes,N,5,3|4,8,Y
+652,Layla,Hayes,Female,No,Yes,6,"1 2","7 8",N
+662,Christian,Reyes,Male,Yes,N,7,2|3,9,Y
+672,Addison,Foster,F,No,Y,8,1|4,8,N
+682,Jonathan,Russell,M,Yes,N,9,3|5,9,Y
+692,Lillian,Hamilton,Female,No,Yes,10,1|2,7|8,N
+702,Thomas,Griffin,Male,N,N,11,"2 3","8 9",Y
+712,Aubrey,Diaz,F,Yes,Yes,12,3|4,9,N
+722,Carter,Hayes,M,No,N,PKA,1|5,8,Y
+732,Savannah,Myers,Female,Yes,Yes,PK,2|4,9,N
+742,Eli,Fisher,Male,No,No,1,3|5,8,Y
+752,Zoey,Lopez,F,Yes,Y,2,"1 4","7 8",N
+762,Isaiah,Perry,M,No,N,3,2|3,9,Y
+772,Hannah,Bryant,Female,N,Yes,4,4|5,8,N
+782,Lincoln,Jenkins,Male,Yes,N,5,1|2,9,Y
+792,Stella,Bishop,F,No,No,6,3|4,7|8,N
+802,Levi,Price,M,Yes,Yes,7,"1 5","8 9",Y
+812,Lucy,Woods,Female,No,N,8,2|3,9,N
+822,Hunter,Ross,Male,Yes,N,9,4|5,8,Y
+832,Aurora,West,F,No,Yes,10,1|2,9,N
+842,Adam,Berry,M,N,N,11,3|5,8,Y
+852,Naomi,Day,Female,Yes,Y,12,2|4,9,N
+862,Connor,Beck,Male,No,N,PKA,"1 2","7 8",Y
+872,Violet,Harvey,F,Yes,Yes,PK,3|4,9,N
+882,Adrian,Price,M,No,N,1,2|5,8,Y
+892,Brooklyn,Watts,Female,Yes,Yes,2,1|3,9,N
+902,Charles,Snyder,Male,No,No,3,"2 4","8 9",Y
+912,Claire,Carroll,F,Yes,N,4,1|2,7,N
+922,Christopher,Baldwin,M,No,Yes,5,3|5,9,Y
+932,Samantha,Ng,Female,N,N,6,2|4,8,N
+942,Aaron,Chapman,Male,Yes,Y,7,1|5,9,Y
+952,Leah,Ortega,F,No,N,8,"2 3","8 9",N
+962,Ryan,Jordan,M,Yes,N,9,1|4,7,Y
+972,Luna,Greene,Female,N,Yes,10,3|5,9,N
+982,Brayden,Little,Male,Yes,Yes,11,2|3,8,Y
+992,Ellie,Huff,F,No,N,12,1|5,9,Y
+1002,Cooper,Johns,M,Yes,No,PK,2|4,8,N
