@@ -14,6 +14,7 @@ def filter_by_gender(reader):
 
 with open('Students.csv', newline='') as students:
     reader = csv.DictReader(students)
+    rows = list()
     filter_by_grade(reader)
     print('\n')
     students.seek(0)
